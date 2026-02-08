@@ -64,5 +64,8 @@ This project reflects industrial automation software used in engineering environ
 │ MongoDB Database    │
 │ Sensor Readings     │
 │ Device Records      │
-└─────────────────────┘```
+└─────────────────────┘
+```
+**ScreenShot**
+<img src="Images/industial.png" width="600">
 
