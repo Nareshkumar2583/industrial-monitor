@@ -1,6 +1,7 @@
 🚀 **Industrial Sensor Monitoring Dashboard**
 
 📌 **Project Overview**
+
 The Industrial Sensor Monitoring Dashboard is a full-stack web application developed using Node.js, Express, MongoDB, and JavaScript to simulate industrial equipment monitoring.
 It collects sensor data such as temperature and voltage, stores it in a database, displays real-time analytics, and provides alert notifications when abnormal conditions occur.
 This project reflects industrial automation software used in engineering environments for monitoring, analysis, and decision support.
@@ -67,5 +68,5 @@ This project reflects industrial automation software used in engineering environ
 └─────────────────────┘
 ```
 **ScreenShot**
-<img src="Images/industial.png" width="600">
+<img src="Image/industial.png" width="600">
 
