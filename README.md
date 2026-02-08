@@ -43,10 +43,8 @@ This project reflects industrial automation software used in engineering environ
 - Postman (API testing)
 - GitHub (version control)
 
-**project archiecuture**
-```User Dashboard
-     │
-     ▼
+**Project Architecture**
+```
 ┌─────────────────────┐
 │ Frontend Dashboard  │
 │ HTML • CSS • JS     │
