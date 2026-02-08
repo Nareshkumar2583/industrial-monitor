@@ -43,15 +43,28 @@ This project reflects industrial automation software used in engineering environ
 - Postman (API testing)
 - GitHub (version control)
 
-📊 **Project Architecture**
-```Client Dashboard
-      ↓
-Node.js Express Server
-      ↓
-MongoDB Database
-
-Data flow:
-- Sensor data sent via API.
-- Stored in MongoDB.
-- Dashboard fetches data periodically.```
+**project archiecuture**
+```User Dashboard
+     │
+     ▼
+┌─────────────────────┐
+│ Frontend Dashboard  │
+│ HTML • CSS • JS     │
+│ Chart.js Graphs     │
+└─────────┬───────────┘
+          │ REST API Calls
+          ▼
+┌─────────────────────┐
+│ Node.js Backend     │
+│ Express Server      │
+│ Alert Logic         │
+│ Data Processing     │
+└─────────┬───────────┘
+          │
+          ▼
+┌─────────────────────┐
+│ MongoDB Database    │
+│ Sensor Readings     │
+│ Device Records      │
+└─────────────────────┘```
 
